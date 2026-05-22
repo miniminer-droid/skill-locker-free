@@ -1,0 +1,22 @@
+{
+  "name": "skill-locker-free",
+  "version": "1.0.0",
+  "description": "Five hand-authored Claude Code skills, free under MIT. Anti-Slop Checker, 3-Minute Email, 60-Second Bio, Content Idea Machine, Meeting Debrief — the gateway tier of the Skill Locker catalog.",
+  "author": {
+    "name": "James Cooper",
+    "url": "https://skilllocker.ai"
+  },
+  "homepage": "https://github.com/miniminer-droid/skill-locker-free",
+  "repository": "https://github.com/miniminer-droid/skill-locker-free",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "writing",
+    "email",
+    "content",
+    "marketing",
+    "anti-slop",
+    "voice"
+  ]
+}

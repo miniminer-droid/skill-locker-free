@@ -1,0 +1,199 @@
+---
+name: content-idea-machine
+description: Generates 20 specific, immediately actionable content ideas with hooks, format recommendations, and virality notes. Use this skill whenever the user needs content ideas, asks what to post, wants a content calendar, is stuck on what to write about, needs to brainstorm topics, says they have "no ideas" or "content block," asks for post ideas for any platform, wants to fill a content calendar, or mentions needing to be more consistent with posting. Also trigger when someone describes their niche/business and the implicit question is "what should I talk about?" If someone says "I run a bakery" and then asks for help with content — this is the skill, even if they didn't say the word "ideas."
+---
+
+# The Content Idea Machine
+
+You generate 20 content ideas that are specific enough to create today. Not vague themes. Not "write about productivity." Specific angles with scroll-stopping hooks, format recommendations, and a clear reason each idea has viral potential.
+
+The difference between this and generic brainstorming: frameworks that force diversity, specificity, and emotional resonance across every idea. Without these frameworks, you'll produce 20 variations of the same obvious idea. With them, you'll cover the full surface area of a niche.
+
+## Step 1: Get the inputs (fast)
+
+You need three things. Ask for all of them in one message if the user hasn't provided them:
+
+1. **Niche/topic/business** — what do they create content about?
+2. **Target audience** — who specifically? "Entrepreneurs" is too broad. "Solo founders in their first year making under $10K/month" is useful. If the user gives a vague audience, push back once: "Who exactly are you trying to reach? The more specific, the better the ideas."
+3. **Primary platform** — where does this content live? (Twitter/X, LinkedIn, Instagram, TikTok, YouTube, newsletter, blog.) This changes format recommendations. If they say "everywhere," ask which one matters most. If they name 2 platforms (common: IG + TikTok, LinkedIn + Twitter), designate the first as primary for format recommendations and add a "Secondary format" note in the table for ideas that adapt well to the second platform. Don't generate two separate lists — generate one list optimized for the primary with cross-posting notes where relevant.
+
+If the user provides a niche but skips audience and platform, make one reasonable assumption for each and state it: "I'm assuming your audience is [X] and your primary platform is [Y] — correct me if I'm wrong." Then proceed. Don't block on perfect inputs.
+
+**If the user gives almost nothing** (e.g., "give me content ideas" with no niche, audience, or platform): ask for all three in one short, energetic message. Don't interrogate — make it feel like you're warming up, not gatekeeping. Something like: "I can definitely help — to make these actually useful instead of generic, I need three things: (1) what's your niche or business, (2) who's your ideal audience, (3) where do you post? Drop those and I'll have 20 ideas ready in 60 seconds." One message. No follow-ups. If they answer partially, assume the rest and go.
+
+## Step 2: Identify content pillars
+
+Every niche has 4-5 natural content pillars. These categories ensure you're not just generating ideas from one angle. Identify them before brainstorming.
+
+The five pillar types:
+
+- **Educational** — teach something specific. "How to X in Y minutes." Builds authority. This is where most people get stuck — they ONLY generate educational content and wonder why their feed feels like a textbook.
+- **Contrarian** — challenge conventional wisdom. "Why X is actually wrong." Generates discussion and makes you memorable. This pillar is uncomfortable for most creators, which is exactly why it works.
+- **Personal story** — share an experience that builds trust. "I lost $X doing Y — here's what I learned." People connect with humans, not experts. This pillar is the one most creators skip because it feels vulnerable.
+- **Tactical/how-to** — step-by-step actionable content. "The exact process I use to X." Different from educational: educational explains concepts, tactical gives the literal steps. Screen recordings, checklists, templates.
+- **Curation/opinion** — comment on trends, tools, news. "I tested 5 tools — here's the only one worth paying for." Low effort, high engagement. Positions you as someone with taste and judgment, not just knowledge.
+
+Name the specific pillars for the user's niche. Don't just repeat the generic types above — translate them. For a fitness coach targeting busy parents: Educational = "Quick science-backed tips," Contrarian = "Fitness myths that waste your time," Personal story = "My own fitness journey as a parent," Tactical = "Exact workouts and meal plans," Curation = "Gear/app/program reviews."
+
+**Context adaptation:** the five pillar types above are defaults for individual creators. Adjust the framing when the context demands it:
+- **B2B / brand accounts:** "Personal story" becomes "Founder/team story" or "Origin story." "Behind-the-scenes" becomes "How we build" or "Culture." "Curation" becomes "Industry commentary." The pillars still work — but the labels and examples need to feel like a brand voice, not a personal diary.
+- **Commerce creators** (Etsy, Shopify, physical products): include at least 2-3 ideas across pillars that bridge content to sales — process reveals that showcase craftsmanship, limited-drop announcements, customer story reposts, "how it's made" content that ends with a soft CTA. Don't make every idea a sales pitch, but don't pretend the creator isn't selling something either.
+
+## Step 3: Generate 20 ideas using the frameworks
+
+Generate exactly 20 ideas. The frameworks below ensure each idea is specific, diverse, and hook-driven.
+
+### Framework 1: Pillar distribution
+
+Spread ideas across ALL five pillars. Minimum 3 ideas per pillar, maximum 5. This prevents the natural tendency to cluster everything under "educational." If you notice you're generating a 6th idea in one pillar, stop and switch.
+
+### Framework 2: Format diversity
+
+Don't just list topics — assign each idea the format that fits it best:
+
+| Format | Best for | Platform fit |
+|---|---|---|
+| Thread/carousel | Listicles, numbered steps, before/after | Twitter, LinkedIn, Instagram |
+| Short-form video | One hook, one payoff, under 60 sec | TikTok, Reels, YouTube Shorts |
+| Long-form article/video | Deep dives, comprehensive guides | Blog, YouTube, newsletter |
+| Poll/question | Engagement bait, market research | Twitter, LinkedIn, Stories |
+| Behind-the-scenes | Process reveals, day-in-the-life | Instagram, TikTok, YouTube |
+| Hot take | Opinions that spark discussion | Twitter, LinkedIn |
+
+**Platform filter:** only recommend formats that actually work on the user's stated platform. If someone says TikTok, don't recommend "long-form article." If someone says newsletter, don't recommend "short-form video." Use the "Platform fit" column — if the user's platform isn't listed for a format, that format is off the table unless you explain how to adapt it.
+
+No format should appear more than 5 times across the 20 ideas. Force variety.
+
+### Framework 3: Hook-first thinking
+
+Every idea MUST include a specific hook — the first line someone reads or hears. Not a topic. A hook.
+
+Bad: "Write about productivity tips"
+Good: "You don't need a morning routine. You need an energy audit. Here's the 10-minute version."
+
+Bad: "Talk about email marketing mistakes"
+Good: "I deleted my 50,000-subscriber email list. Best business decision I ever made. Here's why."
+
+The hook must use at least one of these patterns — and vary across all 20 ideas (don't lean on the same pattern more than 4 times):
+
+- **Surprising claim** — "You don't need X. You need Y."
+- **Open loop** — "I did X. What happened next changed everything."
+- **Direct call-out** — "If you're still doing X in 2026, stop."
+- **Concrete number** — "I went from $X to $Y in Z months. Here's the system."
+- **Question hook** — "Why does nobody talk about X?" / "What would happen if you X?"
+- **Pattern interrupt** — "Stop scrolling. This one thing is costing you X."
+- **List tease** — "3 things I wish I knew before X (number 2 is the one nobody mentions)."
+
+Rotate through these. If your first 5 hooks are all surprising-claim style, force the next 5 into different patterns. Monotone hooks = monotone feed.
+
+### Framework 4: Specificity multiplier
+
+Before writing each idea, filter it through the target audience. Every idea should feel like it was written FOR that specific person, not for a generic audience.
+
+Test: could you swap in a different audience and the idea still works unchanged? If yes, it's too generic. Narrow it.
+
+"5 ways to save money" = generic.
+"5 ways to save $200/month when you're a freelancer with irregular income" = specific.
+
+### Framework 5: Virality checklist
+
+For each idea, quickly assess four signals. Note the strongest 1-2 in the virality column:
+
+- **Emotion** — does it trigger surprise, anger, relief, or "I feel seen"?
+- **Saveable** — is it practical enough that people bookmark it to come back to?
+- **Response magnet** — will people want to share their own version or opinion?
+- **Quick hit** — can it be consumed and understood in under 30 seconds?
+
+Ideas that hit 3-4 signals are your highest-potential pieces. Ideas that hit only 1 still work but need stronger execution.
+
+## Step 4: Quality gate (internal — don't show this to the user)
+
+Before presenting your ideas, scan all 20 and check:
+
+1. **Uniqueness check** — read every hook back-to-back. If any two ideas could be combined into one piece without losing anything, kill the weaker one and replace it with a new idea from an underrepresented pillar.
+2. **Hook pattern check** — count how many times you used each hook pattern (surprising claim, open loop, call-out, number, question, pattern interrupt, list tease). If any pattern appears more than 4 times, rewrite the extras using a different pattern.
+3. **Swap test** — pick 3 random ideas. Could you replace the stated audience with a completely different audience and the idea still works? If yes, the idea is too generic. Add audience-specific details (pain points, language, context) until it fails the swap test.
+
+If any check fails, fix before outputting. This takes seconds and is the difference between "useful list" and "I could never have come up with these myself."
+
+## Step 5: Output
+
+Structure your response exactly like this:
+
+---
+
+**Niche:** [what they told you]
+**Audience:** [specific audience, confirmed or assumed]
+**Primary platform:** [platform]
+
+### Content pillars for [niche]
+
+1. [Pillar name] — [one-line description of what this covers]
+2. [Pillar name] — [one-line description]
+3. [Pillar name] — [one-line description]
+4. [Pillar name] — [one-line description]
+5. [Pillar name] — [one-line description]
+
+### 20 content ideas
+
+| # | Pillar | Idea + hook | Best format | Virality notes |
+|---|---|---|---|---|
+| 1 | [pillar] | **[Hook line]** — [1-2 sentence expansion of the angle] | [format] | [strongest virality signals] |
+| 2 | ... | ... | ... | ... |
+| ... | | | | |
+| 20 | ... | ... | ... | ... |
+
+The hook line in each row should be bold and written exactly as the creator would post it. The expansion explains the angle and what the piece would cover.
+
+### Start here: top 5
+
+Pick the 5 highest-potential ideas. "Highest potential" depends on the creator's context — for audience builders it means virality and reach; for B2B it means pipeline and authority; for commerce it means sales-adjacent content that still provides standalone value. Explain why each one should be prioritized:
+
+1. **Idea #[X]** — [Why this one first. What makes it high-potential. What reaction it's likely to get.]
+2. **Idea #[X]** — [Same]
+3. **Idea #[X]** — [Same]
+4. **Idea #[X]** — [Same]
+5. **Idea #[X]** — [Same]
+
+### Content calendar starter: your next 5 posts
+
+Map the top 5 to a specific posting sequence. Order matters — alternate pillar types and formats so the feed doesn't feel repetitive. Adapt the sequence to the creator's situation:
+
+**New or small audience** (under ~1K followers, just starting out): lead with tactical value first — prove you're worth following before you get contrarian.
+
+| Day | Idea # | Why this order |
+|---|---|---|
+| Day 1 | #[X] | [Lead with high-value tactical content — earns the right to be followed] |
+| Day 2 | #[X] | [Educational piece that builds credibility] |
+| Day 3 | #[X] | [Engagement driver — poll or question to start conversations] |
+| Day 4 | #[X] | [Personal story or behind-the-scenes — builds human connection] |
+| Day 5 | #[X] | [Contrarian or hot take — now you've earned the audience's trust to challenge them] |
+
+**Established audience** (has traction, posting consistently): lead with something bold — your audience already trusts you and bold openers re-engage.
+
+| Day | Idea # | Why this order |
+|---|---|---|
+| Day 1 | #[X] | [Contrarian or personal story — re-engages your audience with a strong perspective] |
+| Day 2 | #[X] | [Tactical value — proves you're not just opinions] |
+| Day 3 | #[X] | [Engagement driver — poll or question to build interaction] |
+| Day 4 | #[X] | [Deep value piece — the one they'll save and share] |
+| Day 5 | #[X] | [Personal or behind-the-scenes — builds connection heading into the weekend] |
+
+Pick the sequence that matches the user's context. If you can't tell, default to the established audience sequence.
+
+---
+
+## Principles
+
+- Speed matters. The user should have 20 usable ideas within 2 minutes of providing their inputs. Don't overthink — generate, then let the frameworks filter for quality.
+- Specificity beats creativity. A boring-sounding idea with a razor-sharp audience and a concrete hook will outperform a "creative" idea that's vague.
+- Never produce two ideas that are just rewordings of each other. If you notice overlap, kill one and replace it.
+- The hook IS the idea. If you can't write a compelling first line, the idea isn't specific enough yet. Push harder.
+- When in doubt about format, recommend short-form video or thread/carousel. These have the widest reach on most platforms right now.
+- Don't suggest ideas that require expertise or assets the creator probably doesn't have. A solo creator doesn't have a "team" to showcase. A new business doesn't have "10 years of data" to share. Match ideas to the creator's likely reality.
+
+### Anti-patterns (common mistakes that ruin output quality)
+
+- **Topic statements disguised as hooks.** "How to save money as a millennial" is a TOPIC, not a hook — even if you bold it. A hook creates tension, curiosity, or recognition in the first line. If the bolded text could be a chapter title in a textbook, it's not a hook. Rewrite it.
+- **Ideas that all start with "How to."** If more than 4 of your 20 ideas begin with "How to," you've fallen into the educational trap. Mix in contrarian takes, personal stories, and curation.
+- **Hooks that require the expansion to make sense.** The hook must work AS A STANDALONE FIRST LINE. If someone reads just the bold text, they should feel compelled to keep reading. If the bold text is confusing without the dash-expansion, the hook is weak.
