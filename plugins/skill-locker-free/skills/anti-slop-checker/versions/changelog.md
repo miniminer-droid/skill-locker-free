@@ -1,5 +1,36 @@
 # Anti-Slop Checker — Changelog
 
+## v1.2.0 — 2026-05-23
+
+**Improvement cycle**: Karpathy Loop run 004
+**Test cases**: 7 active + 2 held-out (ho-001 promoted to tc-007; ho-003 added)
+
+### What improved
+- ESL writing is now correctly identified instead of false-flagged as AI (tc-007: 7/10 → 4/10)
+- Added an explicit Pass 0 "Origin diagnostic" that runs before the existing phrase / voice / rewrite passes
+- Output now includes an "Origin assessment" line so the model commits to ESL vs AI vs native-formal before scoring
+- No regression on obvious-AI (tc-001 still scores 10/10) or genuinely good writing (tc-006 still scores 1/10)
+
+### Evidence (run-004)
+- tc-007 (ESL business email — the documented v1.1.0 limitation): 7/10 → **4/10**, with the origin correctly identified as ESL and 5 specific ESL markers cited (textbook opener "I am writing to inform you", preposition mismatch "help businesses to improve", "very + adjective" stacking, present-perfect-continuous quirk, formal textbook closing). Rewrite reframed as "naturalising for native readers" rather than "removing AI tells."
+- tc-001 (obvious AI LinkedIn post — regression check): stable at **10/10**, all five AI categories still flagged.
+- tc-006 (genuinely good human writing — regression check): stable at **1/10**, no rewrite produced, strengths cited from the actual text.
+
+### What changed in the skill
+1. **Added Pass 0: Origin diagnostic** before Pass 1. Uses six positive ESL markers (textbook openers, article irregularities, preposition mismatches, L1-translation constructions, verb-tense quirks, absence of idiomatic flourishes) rather than the absences-based heuristics in v1.1.0.
+2. **Added an explicit decision rule** with three branches: 2+ ESL markers → cap score at 5 + reframe as naturalisation; 0-1 markers + uniform polish → proceed as AI; uncertain → ask the user one line before scoring.
+3. **Removed the buried "Non-native English speakers" paragraph** from the context-calibration section, replaced by the structured Pass 0 above.
+4. **Added "Origin assessment" line** to the output format so the model commits to a classification before producing a score.
+
+### Why the v1.1.0 fix wasn't enough
+v1.1.0 added an ESL note to the calibration prose but described it as "may indicate ESL" buried mid-paragraph, with the listed differentiator being *inconsistent vocabulary* — which is actually wrong, since well-educated ESL writers in business contexts are quite consistent. v1.2.0 replaces this with positive present-tense markers (article irregularities, preposition mismatches, etc.) that an AI model can actively scan for, plus a hard score cap so the model can't "feel" its way to a high score on text that has been correctly diagnosed as ESL.
+
+### Known limitations
+- The diagnostic is currently calibrated for English-as-second-language writers from European, Latin American, and South Asian backgrounds. Other L1 backgrounds may produce different marker patterns that aren't yet on the list. Future iteration could expand the marker set if real-world misses appear.
+- Translated prose (where a native speaker has run their writing through a translator tool) may not match either profile cleanly. Currently this would likely route through the "uncertain → ask" branch, which is the right outcome.
+
+---
+
 ## v1.1.0 — 2026-05-15
 
 **Improvement cycle**: Karpathy Loop runs 001-003

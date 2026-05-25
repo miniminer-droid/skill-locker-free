@@ -9,7 +9,7 @@
       "name": "skill-locker-free",
       "source": "./plugins/skill-locker-free",
       "description": "Five free hand-authored Claude Code skills from the Skill Locker catalog: Anti-Slop Checker, 3-Minute Email, 60-Second Bio, Content Idea Machine, Meeting Debrief.",
-      "version": "1.0.0"
+      "version": "1.1.0"
     }
   ]
 }
