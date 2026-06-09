@@ -1,5 +1,6 @@
 {
   "name": "skill-locker-free",
+  "description": "Eight free, hand-authored Claude Code skills — the open gateway tier of the Skill Locker catalogue (more paid at skilllocker.ai).",
   "owner": {
     "name": "James Cooper",
     "url": "https://skilllocker.ai"
@@ -8,8 +9,8 @@
     {
       "name": "skill-locker-free",
       "source": "./plugins/skill-locker-free",
-      "description": "Five free hand-authored Claude Code skills from the Skill Locker catalog: Anti-Slop Checker, 3-Minute Email, 60-Second Bio, Content Idea Machine, Meeting Debrief.",
-      "version": "1.1.0"
+      "description": "Eight free hand-authored Claude Code skills from the Skill Locker catalog: Anti-Slop Checker, 3-Minute Email, 60-Second Bio, Content Idea Machine, Meeting Debrief, Flashcard Generator, Sleep Optimisation Plan, and Personal Brand Architect.",
+      "version": "1.2.0"
     }
   ]
 }
